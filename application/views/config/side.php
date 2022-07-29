@@ -4,11 +4,6 @@
       <!-- Sidebar user panel -->
       <ul class="sidebar-menu">
         <li class="header">Selamat Datang <?php echo $this->session->userdata('username'); ?>
-
-<br>
-          
-
-  ID : <?php echo $this->session->userdata('id_user');?><?php echo $this->session->userdata('id_anak');?>
         </li>
         
       </ul>

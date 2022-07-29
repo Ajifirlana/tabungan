@@ -99,7 +99,7 @@
           <tr>
 
   <td><?php echo $no++; ?></td>
-  <td><?php echo $row->jumlah; ?></td>
+  <td><?php echo "Rp. ".number_format($row->jumlah); ?></td>
 
             <td><?php echo $row->tanggal_setor; ?></td>
             <td><?php echo $row->nama_user; ?></td>
